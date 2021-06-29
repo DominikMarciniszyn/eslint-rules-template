@@ -1,0 +1,30 @@
+{
+  "name": "eslint-rules-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DominikMarciniszyn/eslint-rules-template.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DominikMarciniszyn/eslint-rules-template/issues"
+  },
+  "homepage": "https://github.com/DominikMarciniszyn/eslint-rules-template#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "eslint": "^7.29.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.12.0"
+  }
+}
