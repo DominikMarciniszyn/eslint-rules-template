@@ -58,6 +58,7 @@
     "space-in-parens": ["error", "never"],
     "strict": [2, "never"],
     "use-isnan": ["error"],
-    "valid-typeof": ["error", { "requireStringLiterals": true }]
+    "valid-typeof": ["error", { "requireStringLiterals": true }],
+    "eqeqeq": ["error", "always", {"null": "ignore"}]
   }
 }
