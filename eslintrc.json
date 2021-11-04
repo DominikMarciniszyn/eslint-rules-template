@@ -3,9 +3,7 @@
   "extends": [
     "plugin:security/recommended",
     "plugin:you-dont-need-lodash-underscore/compatible",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "eslint:recommended"
+    "plugin:@typescript-eslint/recommended"
   ],
   "env": {
     "node": true,
@@ -54,7 +52,7 @@
     "prefer-const": 2,
     "require-atomic-updates": ["error"],
     "quotes": ["error", "single"],
-    "semi": ["error", "always"],
+    "@typescript-eslint/semi": ["error", "always"],
     "space-in-parens": ["error", "never"],
     "strict": [2, "never"],
     "use-isnan": ["error"],
